@@ -143,7 +143,7 @@ const ServicesPage = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white rounded-lg p-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50">
                     <h4 className="font-bold text-lg mb-2 text-gray-900">Individual Assessment</h4>
-                    <p className="text-gray-600 text-sm mb-4">Detailed analysis of each team member's capabilities.</p>
+                    <p className="text-gray-600 text-sm mb-4">Detailed analysis of each team member&apos;s capabilities.</p>
                     <ul className="space-y-2 text-sm">
                       <li className="flex items-start">
                         <span className="text-gray-700 mr-2 font-bold">✓</span>

@@ -1,15 +1,20 @@
 
 
 
+import Image from 'next/image';
+
 const Hero = () => {
   return (
     <section className="relative h-screen w-full flex items-center justify-center bg-white text-gray-900 overflow-hidden">
       {/* Optional Background Image */}
       <div className="absolute inset-0 z-0 w-full h-full">
-        <img
+        <Image
           src="/path-to-your-hero-image.jpg"
           alt="Hero Background"
           className="w-full h-full object-cover object-center opacity-10"
+          fill
+          sizes="100vw"
+          priority
         />
       </div>
 

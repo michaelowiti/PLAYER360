@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -57,7 +56,7 @@ const ContactPage = () => {
             <span className="block text-yellow-400">TOUCH</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Ready to take your performance to the next level? Contact us today and let's discuss how we can help you achieve your athletic goals.
+            Ready to take your performance to the next level? Contact us today and let&apos;s discuss how we can help you achieve your athletic goals.
           </p>
         </div>
       </section>
@@ -121,7 +120,7 @@ const ContactPage = () => {
                 Send Us a Message
               </h2>
               <p className="text-xl text-gray-600">
-                Fill out the form below and we'll get back to you within 24 hours.
+                Fill out the form below and we&apos;ll get back to you within 24 hours.
               </p>
             </div>
 
@@ -310,7 +309,7 @@ const ContactPage = () => {
               <div className="bg-white rounded-2xl p-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50">
                 <h3 className="text-lg font-bold mb-2 text-gray-900">How do I get started with Player360?</h3>
                 <p className="text-gray-600">
-                  Simply fill out the contact form above or call us directly. We'll schedule an initial consultation to assess your needs and recommend the best program for you.
+                  Simply fill out the contact form above or call us directly. We&apos;ll schedule an initial consultation to assess your needs and recommend the best program for you.
                 </p>
               </div>
 

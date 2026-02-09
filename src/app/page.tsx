@@ -30,7 +30,7 @@ export default function Home() {
               <span className="block text-yellow-400">PERFORMANCE POTENTIAL</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              Growing sports talents to perform at their level best with personalized training regiments that ensure your team performs at it's very best
+              Growing sports talents to perform at their level best with personalized training regiments that ensure your team performs at its very best
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors">
@@ -295,7 +295,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-2">Brain Yegon</h3>
                 <p className="text-gray-500 mb-4">Athletics Kenya</p>
                 <p className="text-lg leading-relaxed italic text-gray-700">
-                  "Training with the trainers from Player360 allowed me to improve my record running time significantly. I particularly enjoyed the Peak Pro system that the trainers use to measure my progress and monitor my stats."
+                  &quot;Training with the trainers from Player360 allowed me to improve my record running time significantly. I particularly enjoyed the Peak Pro system that the trainers use to measure my progress and monitor my stats.&quot;
                 </p>
               </div>
             </div>

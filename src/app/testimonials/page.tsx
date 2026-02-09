@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 const TestimonialsPage = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
@@ -201,10 +200,12 @@ const TestimonialsPage = () => {
                 <div key={testimonial.id} className="bg-gray-50 rounded-2xl p-8 mb-8 shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50">
                   <div className="flex items-start gap-6">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         src={testimonial.image}
                         alt={testimonial.name}
                         className="w-20 h-20 rounded-full object-cover"
+                        width={80}
+                        height={80}
                       />
                     </div>
                     <div className="flex-1">
@@ -257,10 +258,12 @@ const TestimonialsPage = () => {
             {filteredTestimonials.map(testimonial => (
               <div key={testimonial.id} className="bg-white rounded-2xl p-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50 hover:shadow-lg transition-shadow">
                 <div className="flex items-center mb-4">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-16 h-16 rounded-full object-cover mr-4"
+                    width={64}
+                    height={64}
                   />
                   <div className="flex-1">
                     <h3 className="font-bold text-gray-900">{testimonial.name}</h3>

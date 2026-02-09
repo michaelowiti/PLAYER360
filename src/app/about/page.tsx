@@ -47,13 +47,13 @@ const AboutPage = () => {
 
             <div className="bg-gray-50 rounded-2xl p-8 shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Player360 was born out of a passion for athletic excellence and a deep understanding of what it takes to reach the pinnacle of sports performance. Founded by former athletes and performance experts, we recognized a critical gap in the market: the need for comprehensive, personalized training solutions that address every aspect of an athlete's development.
+                Player360 was born out of a passion for athletic excellence and a deep understanding of what it takes to reach the pinnacle of sports performance. Founded by former athletes and performance experts, we recognized a critical gap in the market: the need for comprehensive, personalized training solutions that address every aspect of an athlete&apos;s development.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 What started as a small training facility has grown into a premier athletic performance center, serving thousands of athletes across multiple sports disciplines. Our journey has been marked by innovation, dedication, and an unwavering commitment to helping our clients achieve their dreams.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Today, Player360 stands as a testament to the power of scientific training methodologies combined with genuine care for each athlete's individual journey. We continue to push the boundaries of what's possible in athletic performance, always staying true to our core mission of excellence.
+                Today, Player360 stands as a testament to the power of scientific training methodologies combined with genuine care for each athlete&apos;s individual journey. We continue to push the boundaries of what&apos;s possible in athletic performance, always staying true to our core mission of excellence.
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ const AboutPage = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-600">
-            Join the Player360 family and discover what you're truly capable of achieving.
+            Join the Player360 family and discover what you&apos;re truly capable of achieving.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-gray-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-gray-600 transition-colors shadow-[inset_0_1px_2px_rgba(255,255,255,0.1),0_4px_8px_rgba(0,0,0,0.2)] border border-gray-600/50">

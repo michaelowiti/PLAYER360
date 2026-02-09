@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -57,7 +57,7 @@ const BlogPage = () => {
     {
       id: 5,
       title: "Recovery Science: Maximizing Rest Days",
-      excerpt: "Recovery isn't passive—it's an active part of training. Learn the science-backed methods to optimize your rest and accelerate performance gains.",
+      excerpt: "Recovery isn&apos;t passive—it&apos;s an active part of training. Learn the science-backed methods to optimize your rest and accelerate performance gains.",
       category: "recovery",
       author: "Diana Wambui",
       date: "October 20, 2024",
@@ -105,11 +105,14 @@ const BlogPage = () => {
       <section className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20 md:py-32 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <div className="w-full h-full bg-cover bg-center bg-no-repeat opacity-30"
-               style={{
-                 backgroundImage: "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"
-               }}>
-          </div>
+          <Image
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="Blog hero background"
+            className="w-full h-full object-cover opacity-30"
+            fill
+            sizes="100vw"
+            priority
+          />
           {/* Dark overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/60 to-gray-800/40"></div>
         </div>
@@ -176,7 +179,16 @@ const BlogPage = () => {
               <div className="bg-white rounded-2xl overflow-hidden shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50">
                 <div className="md:flex">
                   <div className="md:w-1/2">
-                    <div className="h-64 md:h-full bg-cover bg-center" style={{ backgroundImage: `url('${featuredPost.image}')` }}></div>
+                    <div className="h-64 md:h-full">
+                      <Image
+                        src={featuredPost.image}
+                        alt={featuredPost.title}
+                        className="w-full h-full object-cover"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        priority
+                      />
+                    </div>
                   </div>
                   <div className="md:w-1/2 p-8">
                     <div className="flex items-center gap-4 mb-4">
@@ -220,7 +232,16 @@ const BlogPage = () => {
             {filteredPosts.map(post => (
               <div key={post.id} className="bg-gray-50 rounded-2xl overflow-hidden shadow-[inset_0_2px_4px_rgba(255,255,255,0.8),0_8px_16px_rgba(0,0,0,0.1)] border border-gray-200/50 hover:shadow-lg transition-shadow">
                 {/* Article Image */}
-                <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url('${post.image}')` }}></div>
+                <div className="h-48 bg-cover">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority
+                  />
+                </div>
                 
                 {/* Article Content */}
                 <div className="p-6">
