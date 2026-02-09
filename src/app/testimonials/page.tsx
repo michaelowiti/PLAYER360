@@ -64,7 +64,7 @@ const TestimonialsPage = () => {
       program: "team",
       rating: 5,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
-      testimonial: "Player360's team assessment and training program revolutionized how we approach player development. The data-driven insights and customized regimens helped each player reach their potential while building team chemistry.",
+      testimonial: "Player360&apos;s team assessment and training program revolutionized how we approach player development. The data-driven insights and customized regimens helped each player reach their potential while building team chemistry.",
       results: ["30% improvement in team metrics", "Enhanced player development", "Better injury prevention"],
       featured: false
     },
