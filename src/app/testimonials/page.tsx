@@ -132,7 +132,7 @@ const TestimonialsPage = () => {
             <span className="block text-yellow-400">STORIES</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Hear from athletes and teams who have transformed their performance with Player360's proven training methodologies and expert guidance.
+            Hear from athletes and teams who have transformed their performance with Player360&apos;s proven training methodologies and expert guidance.
           </p>
         </div>
       </section>
