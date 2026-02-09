@@ -11,10 +11,11 @@ const Hero = () => {
         <Image
           src="/path-to-your-hero-image.jpg"
           alt="Hero Background"
-          className="w-full h-full object-cover object-center opacity-10"
+          className="w-full h-full object-cover opacity-10"
           fill
           sizes="100vw"
           priority
+          unoptimized
         />
       </div>
 

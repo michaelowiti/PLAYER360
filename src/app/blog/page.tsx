@@ -112,6 +112,7 @@ const BlogPage = () => {
             fill
             sizes="100vw"
             priority
+            unoptimized
           />
           {/* Dark overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/60 to-gray-800/40"></div>
@@ -187,6 +188,7 @@ const BlogPage = () => {
                         fill
                         sizes="(max-width: 768px) 100vw, 50vw"
                         priority
+                        unoptimized
                       />
                     </div>
                   </div>
@@ -240,6 +242,7 @@ const BlogPage = () => {
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     priority
+                    unoptimized
                   />
                 </div>
                 

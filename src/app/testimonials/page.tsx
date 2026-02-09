@@ -206,6 +206,7 @@ const TestimonialsPage = () => {
                         className="w-20 h-20 rounded-full object-cover"
                         width={80}
                         height={80}
+                        unoptimized
                       />
                     </div>
                     <div className="flex-1">
@@ -264,6 +265,7 @@ const TestimonialsPage = () => {
                     className="w-16 h-16 rounded-full object-cover mr-4"
                     width={64}
                     height={64}
+                    unoptimized
                   />
                   <div className="flex-1">
                     <h3 className="font-bold text-gray-900">{testimonial.name}</h3>
